@@ -3,19 +3,9 @@ import os
 import pickle
 
 # Define the class mapping
-CLASS_MAPPING = {
-    0: "English",
-    1: "Hindi",
-    2: "French",
-    3: "Spanish",
-    4: "German",
-    5: "Chinese",
-    6: "Japanese",
-    7: "Russian",
-    8: "Korean",
-    9: "Arabic",
-    10: "Portuguese"
-}
+CLASS_MAPPING = {0:'Arabic', 1:'Danish', 2:'Dutch', 3:'English', 4:'French', 5:'German',
+       6:'Greek', 7:'Hindi', 8:'Italian', 9:'Kannada', 10:'Malayalam', 11:'Portugeese',
+       12:'Russian', 13:'Spanish', 14:'Sweedish', 15:'Tamil', 16:'Turkish'}
 
 # Function to load the model
 @st.cache_resource
