@@ -3,7 +3,7 @@ import pickle
 import os
 
 # Path to the model file
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "train_pipeline-0.1.0.pkl")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "trained_pipeline-0.1.0.pkl")
 
 # Load the trained model
 try:
